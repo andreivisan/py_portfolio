@@ -3,7 +3,9 @@ $header2: 4rem;
 $header3: 2.2 rem;
 $header4: 2rem;
 $text: 2rem;
-$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$gradient: linear-gradient(to right, #38d39f, #38a4d3 100%);
+$moz-gradient: -moz-linear-gradient(to right, #38d39f, #38a4d3 100%);
+$webkit-gradient: -webkit-linear-gradient(to right, #38d39f, #38a4d3 100%);
 $background-color: #154353;
 $gray-text: #2c2c2c;
 

@@ -139,7 +139,7 @@ nav ul {
   font-size: 8rem;
   padding-top: 2rem;
   background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-  background: linear-gradient(left, #38d39f, #38a4d3);
+  background: linear-gradient(to right, #38d39f, #38a4d3 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -227,7 +227,7 @@ nav ul {
 
 .experience .timeline li h4 span, .education .timeline li h4 span {
   background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-  background: linear-gradient(left, #38d39f, #38a4d3);
+  background: linear-gradient(to right, #38d39f, #38a4d3 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -269,20 +269,21 @@ nav ul {
 .portfolio .items li .portfo-button {
   border: 0.2rem solid transparent;
   padding: 1rem;
-  -o-border-image: linear-gradient(left, #38d39f, #38a4d3);
+  -o-border-image: linear-gradient(to right, #38d39f, #38a4d3 100%);
      border-image: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-     border-image: linear-gradient(left, #38d39f, #38a4d3);
+     border-image: linear-gradient(to right, #38d39f, #38a4d3 100%);
+  -webkit-border-image-slice: 1;
   border-image-slice: 1;
 }
 
 .portfolio .items li a:hover {
-  border: 0.2rem solid transparent;
+  border: 0.2rem solid;
   padding: 1rem;
-  -o-border-image: linear-gradient(left, #38d39f, #38a4d3);
+  -o-border-image: linear-gradient(to right, #38d39f, #38a4d3 100%);
      border-image: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-     border-image: linear-gradient(left, #38d39f, #38a4d3);
+     border-image: linear-gradient(to right, #38d39f, #38a4d3 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-  background-image: linear-gradient(left, #38d39f, #38a4d3);
+  background-image: linear-gradient(to right, #38d39f, #38a4d3 100%);
   color: white;
   border-image-slice: 1;
 }
