@@ -1,3 +1,3 @@
-# HN Scraper
+# Personal Website
 
 Personal Website and Portfolio
