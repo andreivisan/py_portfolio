@@ -94,4 +94,15 @@ $gray-text: #2c2c2c;
         padding: 0rem;
         width: 100%;
     }
+
+    footer {
+        @include flex(center, center, row);
+        h4 {
+            display: none;
+        }
+
+        ul {
+           width: 100%;
+        }
+    }
 }
