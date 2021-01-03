@@ -73,13 +73,13 @@
             }
 
             .portfo-button {
-                border: 0.2rem solid transparent;
+                border: 0.2rem solid;
                 padding: 1rem;
                 -moz-border-image: $moz-gradient;
                 -webkit-border-image: $webkit-gradient;
                 border-image: $gradient;
-                -webkit-border-image-slice: 1;
-                border-image-slice: 1;
+                -webkit-border-image-slice: 2;
+                border-image-slice: 2;
             }
 
             a:hover {
