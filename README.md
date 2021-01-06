@@ -2,4 +2,4 @@
 
 Personal Website and Portfolio
 
-<a href="www.programminglife.io"> Live Website </a>
+[Live Website](http://www.programminglife.io)
