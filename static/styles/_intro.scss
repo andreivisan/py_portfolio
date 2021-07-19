@@ -1,70 +1,81 @@
 .main-head {
-    width: 95%;
-    margin: 0 0 0 auto;
+  width: 95%;
+  margin: 0 0 0 auto;
 }
 
 nav {
-    @include flex(space-between, center, row);
-    min-height: 10vh;
-    width: 100%;
-    flex-wrap: wrap;
-    .logo {
-        @include flex(flex-start, center, row);
-        flex: 1 1 10rem;
-        h1 {
-            margin: 2rem;
-        }
+  @include flex(space-between, center, row);
+  min-height: 10vh;
+  width: 100%;
+  flex-wrap: wrap;
+  .logo {
+    @include flex(flex-start, center, row);
+    flex: 1 1 10rem;
+    h1 {
+      margin: 2rem;
     }
+  }
 
-    ul {
-        @include flex(space-around, center, row);
-        flex: 0.7 0.7 10rem;
-    }
+  ul {
+    @include flex(space-around, center, row);
+    flex: 0.7 0.7 10rem;
+  }
 }
 
 .intro {
-    min-height: 90vh;
-    width: 90%;
-    margin: auto;
-    flex-wrap: wrap;
-    @include flex(space-between, center, row);
-    h2 {
-        font-size: 8rem;
-        padding-top: 2rem;
-        background: $gradient;
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        display: inline-block;
-    }
-    h3 {
-        font-size: 6rem;
-        padding: 2rem 0rem;
-    }
-    p {
-        padding-top: 2rem;
-        color: $gray-text;
-    }
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  @include flex(space-between, center, row);
+  h2 {
+    font-size: 8rem;
+    padding-top: 2rem;
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  h3 {
+    font-size: 6rem;
+    padding: 2rem 0rem;
+  }
+  p {
+    padding-top: 2rem;
+    color: $gray-text;
+  }
 }
 
-.intro-social {
-    margin-top: 4rem;
-    a {
-        margin-right: 5rem;
-    }
+.intro-social .download-resume {
+  margin-top: 4rem;
+  a {
+    margin-right: 5rem;
+  }
+}
+
+.download-resume-bttm {
+  border: 0.2rem solid;
+  padding: 1rem;
+  -moz-border-image: $moz-gradient;
+  -webkit-border-image: $webkit-gradient;
+  border-image: $gradient;
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 .active {
-    background: $gray-text;
-    color: white;
-    padding: 1rem 3rem;
-    border-radius: 2rem;
+  background: $gray-text;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
 }
 
-.intro-text, .intro-images {
-    flex: 1 1 40rem;
+.intro-text,
+.intro-images {
+  flex: 1 1 40rem;
 }
 
 .intro-images {
-    margin-left: 7em;
+  margin-left: 7em;
 }
