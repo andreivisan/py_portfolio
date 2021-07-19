@@ -47,7 +47,7 @@ nav {
   }
 }
 
-.intro-social .download-resume {
+.intro-social {
   margin-top: 4rem;
   a {
     margin-right: 5rem;
@@ -62,6 +62,9 @@ nav {
   border-image: $gradient;
   -webkit-border-image-slice: 2;
   border-image-slice: 2;
+  background: $gradient;
+  color: white;
+  font-weight: bold;
 }
 
 .active {
