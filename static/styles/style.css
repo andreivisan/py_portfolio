@@ -165,17 +165,12 @@ nav ul {
 }
 
 .download-resume-bttm {
-  border: 0.2rem solid;
-  padding: 1rem;
-  -o-border-image: linear-gradient(to right, #38d39f, #38a4d3);
-     border-image: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
-     border-image: linear-gradient(to right, #38d39f, #38a4d3);
-  -webkit-border-image-slice: 2;
-  border-image-slice: 2;
+  padding: 1.5rem;
   background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
   background: linear-gradient(to right, #38d39f, #38a4d3);
   color: white;
   font-weight: bold;
+  border-radius: 1rem;
 }
 
 .active {

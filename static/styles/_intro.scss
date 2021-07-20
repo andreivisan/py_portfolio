@@ -55,16 +55,11 @@ nav {
 }
 
 .download-resume-bttm {
-  border: 0.2rem solid;
-  padding: 1rem;
-  -moz-border-image: $moz-gradient;
-  -webkit-border-image: $webkit-gradient;
-  border-image: $gradient;
-  -webkit-border-image-slice: 2;
-  border-image-slice: 2;
+  padding: 1.5rem;
   background: $gradient;
   color: white;
   font-weight: bold;
+  border-radius: 1rem;
 }
 
 .active {
